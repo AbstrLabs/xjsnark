@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:005cc8f3-7fb6-4201-bd47-d830735988ad(xjsnark.ecSigCheck)">
+<model ref="r:e5135611-a77e-49f0-919f-68accde5c96c(xjsnark.ecSigCheck)">
   <persistence version="9" />
   <languages>
     <use id="0688d542-e2a3-492c-a31f-0e921fd6a8fb" name="xjsnark" version="0" />
