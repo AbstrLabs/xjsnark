@@ -169,6 +169,10 @@
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
     <language id="0688d542-e2a3-492c-a31f-0e921fd6a8fb" name="xjsnark">
+      <concept id="1307139697235026701" name="xjsnark.structure.LogStatement" flags="ng" index="vCCuG">
+        <child id="1307139697235029218" name="msg" index="vCCx3" />
+        <child id="1307139697235028892" name="expression" index="vCCWX" />
+      </concept>
       <concept id="7495353643810622554" name="xjsnark.structure.JFieldConversion" flags="ng" index="_hXgR">
         <child id="7495353643810622556" name="argument" index="_hXgL" />
         <child id="7495353643810622555" name="jType" index="_hXgQ" />
@@ -347,6 +351,46 @@
         <node concept="3SKdUt" id="2qKKpuf8PG2" role="3cqZAp">
           <node concept="3SKdUq" id="2qKKpuf8PG4" role="3SKWNk">
             <property role="3SKdUp" value="EC generator point" />
+          </node>
+        </node>
+        <node concept="vCCuG" id="249C4fZE4Vy" role="3cqZAp">
+          <node concept="37vLTw" id="249C4fZE5wE" role="vCCWX">
+            <ref role="3cqZAo" node="2qKKpuf8nlm" resolve="pk_x" />
+          </node>
+          <node concept="Xl_RD" id="249C4fZE5z0" role="vCCx3">
+            <property role="Xl_RC" value="pk_x" />
+          </node>
+        </node>
+        <node concept="vCCuG" id="249C4fZE6c4" role="3cqZAp">
+          <node concept="37vLTw" id="249C4fZE6Kv" role="vCCWX">
+            <ref role="3cqZAo" node="2qKKpuf8nxy" resolve="pk_y" />
+          </node>
+          <node concept="Xl_RD" id="249C4fZE6NF" role="vCCx3">
+            <property role="Xl_RC" value="pk_y" />
+          </node>
+        </node>
+        <node concept="vCCuG" id="249C4fZE7s2" role="3cqZAp">
+          <node concept="37vLTw" id="249C4fZE80A" role="vCCWX">
+            <ref role="3cqZAo" node="2JFQhODpk9g" resolve="r" />
+          </node>
+          <node concept="Xl_RD" id="249C4fZE82W" role="vCCx3">
+            <property role="Xl_RC" value="r" />
+          </node>
+        </node>
+        <node concept="vCCuG" id="249C4fZE8E2" role="3cqZAp">
+          <node concept="37vLTw" id="249C4fZE9eJ" role="vCCWX">
+            <ref role="3cqZAo" node="2JFQhODplx8" resolve="s" />
+          </node>
+          <node concept="Xl_RD" id="249C4fZE9gA" role="vCCx3">
+            <property role="Xl_RC" value="s" />
+          </node>
+        </node>
+        <node concept="vCCuG" id="249C4fZE9RQ" role="3cqZAp">
+          <node concept="37vLTw" id="249C4fZEasG" role="vCCWX">
+            <ref role="3cqZAo" node="2JFQhODpmTJ" resolve="h" />
+          </node>
+          <node concept="Xl_RD" id="249C4fZEauz" role="vCCx3">
+            <property role="Xl_RC" value="h" />
           </node>
         </node>
         <node concept="3cpWs8" id="2qKKpuf8Cjr" role="3cqZAp">
@@ -1436,6 +1480,14 @@
             </node>
           </node>
         </node>
+        <node concept="vCCuG" id="249C4fZE3DV" role="3cqZAp">
+          <node concept="37vLTw" id="249C4fZE4e8" role="vCCWX">
+            <ref role="3cqZAo" node="2JFQhOH297J" resolve="p0" />
+          </node>
+          <node concept="Xl_RD" id="249C4fZE4hb" role="vCCx3">
+            <property role="Xl_RC" value="p0" />
+          </node>
+        </node>
         <node concept="3s6pcg" id="2JFQhODBf8T" role="3cqZAp">
           <node concept="37vLTw" id="2JFQhOH29P2" role="3s6pch">
             <ref role="3cqZAo" node="2JFQhOH297J" resolve="p0" />
@@ -1804,7 +1856,7 @@
                 <node concept="1pGfFk" id="2JFQhODpp7p" role="2ShVmc">
                   <ref role="37wK5l" to="xlxw:~BigInteger.&lt;init&gt;(java.lang.String,int)" resolve="BigInteger" />
                   <node concept="Xl_RD" id="2JFQhODpp8v" role="37wK5m">
-                    <property role="Xl_RC" value="676a148115a3ffbb4aedae6f227d349da39f7fd9d590bca7d0bfa9857b7795c1" />
+                    <property role="Xl_RC" value="a254572cc47c2981d46d786944fb47fbbec821b748f1ecda13313793edae22c7" />
                   </node>
                   <node concept="3cmrfG" id="2JFQhODppeF" role="37wK5m">
                     <property role="3cmrfH" value="16" />
@@ -1825,7 +1877,7 @@
                 <node concept="1pGfFk" id="2JFQhODpp$Q" role="2ShVmc">
                   <ref role="37wK5l" to="xlxw:~BigInteger.&lt;init&gt;(java.lang.String,int)" resolve="BigInteger" />
                   <node concept="Xl_RD" id="2JFQhODpp_X" role="37wK5m">
-                    <property role="Xl_RC" value="be287b2b82dc6b3abd2c9ee5e6b8918c518b8de20c1bc1b76ba4e4fe0685de3e" />
+                    <property role="Xl_RC" value="1cef4f59fec5f087c7e0f42255c1f9864f9b16ba2714a10f30672d2850e82c4a" />
                   </node>
                   <node concept="3cmrfG" id="2JFQhODppFH" role="37wK5m">
                     <property role="3cmrfH" value="16" />
@@ -1846,7 +1898,7 @@
                 <node concept="1pGfFk" id="2JFQhODpq20" role="2ShVmc">
                   <ref role="37wK5l" to="xlxw:~BigInteger.&lt;init&gt;(java.lang.String,int)" resolve="BigInteger" />
                   <node concept="Xl_RD" id="2JFQhODpq38" role="37wK5m">
-                    <property role="Xl_RC" value="660eb73e0d3fd524e58684c9700790cabbe47739bfdd6a939282ef891b77ed71" />
+                    <property role="Xl_RC" value="68b8138094e7362e77580580053ca8654493b7c9c9a08ffaf79f353b17f12480" />
                   </node>
                   <node concept="3cmrfG" id="2JFQhODpq9m" role="37wK5m">
                     <property role="3cmrfH" value="16" />
