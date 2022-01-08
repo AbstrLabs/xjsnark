@@ -4783,21 +4783,13 @@
         </node>
         <node concept="3cpWs8" id="249C4fZYBFg" role="3cqZAp">
           <node concept="3cpWsn" id="249C4fZYBFj" role="3cpWs9">
-            <property role="TrG5h" value="s" />
+            <property role="TrG5h" value="hash1" />
             <node concept="1rXfSq" id="249C4g01Q_$" role="33vP2m">
-              <ref role="37wK5l" node="249C4fZYKYa" resolve="session" />
+              <ref role="37wK5l" node="249C4fZYKYa" resolve="sessionHash" />
             </node>
             <node concept="3qc1$W" id="249C4g022mF" role="1tU5fm">
               <property role="3qc1Xj" value="256" />
             </node>
-          </node>
-        </node>
-        <node concept="vCCuG" id="249C4g1OTtT" role="3cqZAp">
-          <node concept="37vLTw" id="249C4g1OTDb" role="vCCWX">
-            <ref role="3cqZAo" node="249C4fZYBFj" resolve="s" />
-          </node>
-          <node concept="Xl_RD" id="249C4g1OTGC" role="vCCx3">
-            <property role="Xl_RC" value="session" />
           </node>
         </node>
         <node concept="3cpWs8" id="249C4gahHJx" role="3cqZAp">
@@ -4868,7 +4860,7 @@
               </node>
             </node>
             <node concept="37vLTw" id="249C4gahKUi" role="37wK5m">
-              <ref role="3cqZAo" node="249C4fZYBFj" resolve="s" />
+              <ref role="3cqZAo" node="249C4fZYBFj" resolve="hash1" />
             </node>
           </node>
         </node>
@@ -6632,7 +6624,7 @@
     <node concept="2tJIrI" id="249C4fZYC4D" role="jymVt" />
     <node concept="3clFb_" id="249C4fZYKYa" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="session" />
+      <property role="TrG5h" value="sessionHash" />
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <property role="2aFKle" value="false" />
@@ -6786,12 +6778,40 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="249C4gbx3Uq" role="3cqZAp">
+          <node concept="3SKdUq" id="249C4gbx3Us" role="3SKWNk">
+            <property role="3SKdUp" value="This confirms server_records are not forged" />
+          </node>
+        </node>
         <node concept="3s6pcg" id="249C4g8YgyS" role="3cqZAp">
           <node concept="37vLTw" id="249C4g8YhQb" role="3s6pch">
             <ref role="3cqZAo" node="249C4g8XSNC" resolve="commitHash" />
           </node>
           <node concept="37vLTw" id="249C4g8YhTN" role="3s6pci">
             <ref role="3cqZAo" node="249C4g8YdP9" resolve="expectedCommitHash" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="249C4gbx8u7" role="3cqZAp" />
+        <node concept="3cpWs8" id="249C4gbxb1P" role="3cqZAp">
+          <node concept="3cpWsn" id="249C4gbxb1S" role="3cpWs9">
+            <property role="TrG5h" value="serverEcPubkey" />
+            <node concept="10Q1$e" id="249C4gbxcoO" role="1tU5fm">
+              <node concept="3qc1$W" id="249C4gbxb1N" role="10Q1$1">
+                <property role="3qc1Xj" value="8" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="249C4gbxcDK" role="33vP2m">
+              <node concept="3$_iS1" id="249C4gbxcI1" role="2ShVmc">
+                <node concept="3$GHV9" id="249C4gbxcI3" role="3$GQph">
+                  <node concept="3cmrfG" id="249C4gbxcK6" role="3$I4v7">
+                    <property role="3cmrfH" value="88" />
+                  </node>
+                </node>
+                <node concept="3qc1$W" id="249C4gbxcI0" role="3$_nBY">
+                  <property role="3qc1Xj" value="8" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="249C4g8Yskl" role="3cqZAp" />
