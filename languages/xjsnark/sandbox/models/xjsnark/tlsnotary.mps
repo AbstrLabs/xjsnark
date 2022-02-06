@@ -20376,6 +20376,17 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3AURjX2lDnu" role="3cqZAp">
+          <node concept="37vLTI" id="3AURjX2lDBt" role="3clFbG">
+            <node concept="3clFbT" id="3AURjX2lDCK" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="10M0yZ" id="3AURjX2lDnt" role="37vLTJ">
+              <ref role="1PxDUh" to="85wc:~Config" resolve="Config" />
+              <ref role="3cqZAo" to="85wc:~Config.enforceInternalDivisionNonZeroChecks" resolve="enforceInternalDivisionNonZeroChecks" />
+            </node>
+          </node>
+        </node>
         <node concept="1X3_iC" id="6Oevljik8uI" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
