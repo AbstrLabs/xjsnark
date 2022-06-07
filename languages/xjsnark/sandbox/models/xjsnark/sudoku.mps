@@ -104,7 +104,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
+        <property id="1068580123138" name="value" index="3clFbU" />
+      </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -1315,6 +1317,28 @@
             <node concept="10M0yZ" id="18zTa4dO5GE" role="37vLTJ">
               <ref role="1PxDUh" to="85wc:~Config" resolve="Config" />
               <ref role="3cqZAo" to="85wc:~Config.debugVerbose" resolve="debugVerbose" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="249C4gs0ZV8" role="3cqZAp">
+          <node concept="37vLTI" id="249C4gs103S" role="3clFbG">
+            <node concept="3clFbT" id="249C4gs104l" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="10M0yZ" id="249C4gs0ZV7" role="37vLTJ">
+              <ref role="3cqZAo" to="85wc:~Config.writeCircuits" resolve="writeCircuits" />
+              <ref role="1PxDUh" to="85wc:~Config" resolve="Config" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="249C4gs107y" role="3cqZAp">
+          <node concept="37vLTI" id="249C4gs10e_" role="3clFbG">
+            <node concept="Xl_RD" id="249C4gs10eZ" role="37vLTx">
+              <property role="Xl_RC" value="C:/Users/icero/" />
+            </node>
+            <node concept="10M0yZ" id="249C4gs107x" role="37vLTJ">
+              <ref role="1PxDUh" to="85wc:~Config" resolve="Config" />
+              <ref role="3cqZAo" to="85wc:~Config.outputFilesPath" resolve="outputFilesPath" />
             </node>
           </node>
         </node>
